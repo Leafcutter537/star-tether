@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2525500884284754105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 598367949377294376, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.093359716
+      objectReference: {fileID: 0}
+    - target: {fileID: 598367949377294376, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.053773552
+      objectReference: {fileID: 0}
+    - target: {fileID: 598367949377294376, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504114455695619916, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_TagString
+      value: Antimatter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290557, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290557, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290558, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_Name
+      value: AntimatterAsteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290558, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290558, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_TagString
+      value: Antimatter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523584625602290559, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188667514037176065, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188667514037176065, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_TagString
+      value: Antimatter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273313159817016482, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33ead6170853ee244a503939f2d9987f, type: 2}
+    m_RemovedComponents:
+    - {fileID: 3523584625602290547, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+--- !u!1 &1435003550092962759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3523584625602290558, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+  m_PrefabInstance: {fileID: 2525500884284754105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5175581961116540907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435003550092962759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc4d6caf6dc44a41b10f5556783522e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchVelocity: 0
+  rigidbody: {fileID: 1435003550092962763}
+  meshRenderer: {fileID: 5180158149019794459}
+  starTetherPrefab: {fileID: 5324657749753450213, guid: 2d3a0e7ed6e8c1443b2620a964d0fed1, type: 3}
+  energizedMaterial: {fileID: 0}
+  energizedGradient:
+    m_Mode: 0
+    m_GradientMin:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_GradientMax:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+    m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+  energizedStartColor: {r: 0, g: 0, b: 0, a: 0}
+  explosion: {fileID: 0}
+  blockDestructionGradient:
+    m_Mode: 0
+    m_GradientMin:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_GradientMax:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+    m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+  blockDestructionColor: {r: 0, g: 0, b: 0, a: 0}
+  wormholeDestructionGradient:
+    m_Mode: 0
+    m_GradientMin:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_GradientMax:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+    m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+  wormholeDestructionColor: {r: 0, g: 0, b: 0, a: 0}
+  particleSystem: {fileID: 3116972350598715537}
+  asteroidDestroyedEvent: {fileID: 0}
+  gameStoppedEvent: {fileID: 11400000, guid: 6f21095fd207c834bb8cc2f52ec8a4f5, type: 2}
+  initialTether: {fileID: 0}
+  initialVelocity: {x: 0, y: 0}
+  antimatterTimeFactor: 0.1
+  slowAntimatterEvent: {fileID: 11400000, guid: cd371beca788e7e4aa6f3c832ba95ac1, type: 2}
+  animator: {fileID: 2525500883322742990}
+--- !u!50 &1435003550092962763 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3523584625602290546, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+  m_PrefabInstance: {fileID: 2525500884284754105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2525500883322742990 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1507418231, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+  m_PrefabInstance: {fileID: 2525500884284754105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3116972350598715537 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 598367949377294376, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+  m_PrefabInstance: {fileID: 2525500884284754105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5180158149019794459 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7273313159817016482, guid: 55bb4fbe9d3d5624582d2fd2381c7c81, type: 3}
+  m_PrefabInstance: {fileID: 2525500884284754105}
+  m_PrefabAsset: {fileID: 0}
