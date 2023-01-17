@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.016357873, g: 0.015225322, b: 0.014397012, a: 1}
+  m_IndirectSpecularColor: {r: 0.016090982, g: 0.01466979, b: 0.013826404, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -527,7 +527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5503094094379266251, guid: 49da07ac2c88358439dbdb5aab37f601, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5503094094379266251, guid: 49da07ac2c88358439dbdb5aab37f601, type: 3}
       propertyPath: m_LocalPosition.y
@@ -865,7 +865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5503094094379266251, guid: 49da07ac2c88358439dbdb5aab37f601, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5503094094379266251, guid: 49da07ac2c88358439dbdb5aab37f601, type: 3}
       propertyPath: m_LocalPosition.z
@@ -943,11 +943,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5503094094379266251, guid: 49da07ac2c88358439dbdb5aab37f601, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5503094094379266251, guid: 49da07ac2c88358439dbdb5aab37f601, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5503094094379266251, guid: 49da07ac2c88358439dbdb5aab37f601, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1693,7 +1693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1374043273828952833, guid: b819a862b65bfda48bd8d0792e198a27, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.13
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 1374043273828952833, guid: b819a862b65bfda48bd8d0792e198a27, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2000,7 +2000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4378638346741866793, guid: 159fd353815a79b4ca8d2a97607ec221, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.24
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4378638346741866793, guid: 159fd353815a79b4ca8d2a97607ec221, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2351,7 +2351,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2375,7 +2375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715112724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0.82, z: -10}
+  m_LocalPosition: {x: 0.21, y: -0.82, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3018,7 +3018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2191702216295573939, guid: d016e30e3d30b684fb779a901939858f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.08
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 2191702216295573939, guid: d016e30e3d30b684fb779a901939858f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3073,11 +3073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2473865862901364353, guid: 005a4b804c1438740b0f922409ece0bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.15
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 2473865862901364353, guid: 005a4b804c1438740b0f922409ece0bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.03
+      value: 1.91
       objectReference: {fileID: 0}
     - target: {fileID: 2473865862901364353, guid: 005a4b804c1438740b0f922409ece0bf, type: 3}
       propertyPath: m_LocalPosition.z

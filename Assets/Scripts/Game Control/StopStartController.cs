@@ -14,6 +14,7 @@ public class StopStartController : MonoBehaviour
     [Header("Event References")]
     [SerializeField] private GameStoppedEvent gameStoppedEvent;
     [SerializeField] private AsteroidDestroyedEvent asteroidDestroyedEvent;
+    [SerializeField] private LoadNextLevelEvent loadNextLevelEvent;
     [Header("Asteroid Count")]
     private int numAsteroidsTotal;
     private int currentNumAsteroids;
@@ -70,6 +71,16 @@ public class StopStartController : MonoBehaviour
 
     public void NextStage()
     {
+        RaiseHighestLevel();
+        loadNextLevelEvent.Raise(this, null);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    private void RaiseHighestLevel()
+    {
+        int PrevHighestLevel = StageSelectPanel.GetHighestLevelIndex();
+        int levelToBeLoaded = SceneManager.GetActiveScene().buildIndex + 1;
+        PlayerPrefs.SetInt("Highest Level", Mathf.Max(PrevHighestLevel, levelToBeLoaded));
+    }
+
 }

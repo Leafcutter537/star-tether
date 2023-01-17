@@ -5,6 +5,6 @@ public class GameStartStageSelect : MonoBehaviour
 {
     void Start()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(StageSelectPanel.GetHighestLevelIndex());
     }
 }
