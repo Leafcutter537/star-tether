@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.016090982, g: 0.01466979, b: 0.013826404, a: 1}
+  m_IndirectSpecularColor: {r: 0.016357873, g: 0.015225322, b: 0.014397012, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -883,6 +883,11 @@ PrefabInstance:
     - target: {fileID: 3547414350636069003, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133308730190470399, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
+      propertyPath: m_text
+      value: You will only need one-off nodes to solve this puzzle - and you won't
+        need the upper left star!
       objectReference: {fileID: 0}
     - target: {fileID: 6013263302803378022, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
       propertyPath: m_AnchorMax.y

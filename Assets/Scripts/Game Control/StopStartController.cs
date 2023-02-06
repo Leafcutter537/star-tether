@@ -35,6 +35,24 @@ public class StopStartController : MonoBehaviour
         asteroidDestroyedEvent.RemoveListener(OnAsteroidDestroyed);
     }
 
+    public void Activate()
+    {
+        if (currentNumAsteroids > 0)
+        {
+            if (this is TutorialStartStopController tutor)
+                tutor.TutorialStopGame();
+            else
+                StopGame();
+        }
+        else
+        {
+            if (this is TutorialStartStopController tutor)
+                tutor.TutorialStartGame();
+            else
+                StartGame();
+        }
+    }
+
     public void StartGame()
     {
         foreach (Launcher launcher in FindObjectsOfType<Launcher>())
@@ -58,6 +76,7 @@ public class StopStartController : MonoBehaviour
         startButton.SetActive(true);
         stopButton.SetActive(false);
         gameIsActive = false;
+        currentNumAsteroids = 0;
     }
 
     public void OnAsteroidDestroyed(object sender, EventParameters args)

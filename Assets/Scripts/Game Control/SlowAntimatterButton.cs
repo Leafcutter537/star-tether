@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using Assets.EventSystem;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.InputSystem.Composites;
 
 public class SlowAntimatterButton : MonoBehaviour
 {
     [SerializeField] private SlowAntimatterEvent slowAntimatterEvent;
-    [SerializeField] private TextMeshProUGUI buttonText;
+    [SerializeField] private Text buttonText;
     [SerializeField] private string slowedText;
     [SerializeField] private string normalText;
     private bool isSlowed;

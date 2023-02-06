@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.016090982, g: 0.01466979, b: 0.013826404, a: 1}
+  m_IndirectSpecularColor: {r: 0.016357873, g: 0.015225322, b: 0.014397012, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -596,6 +596,11 @@ PrefabInstance:
     - target: {fileID: 835672796539026556, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133308730190470399, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
+      propertyPath: m_text
+      value: Activate the node so that the asteroid can absorb energy and break through
+        the barrier.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:

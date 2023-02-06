@@ -130,6 +130,7 @@ public class Asteroid : MonoBehaviour
             {
                 CreateExplosion(particleSystem.colorOverLifetime.color, particleSystem.main.startColor.color, transform.position);
                 asteroidDestroyedEvent.Raise(this, null);
+                RemoveStarTether();
                 Destroy(this.gameObject);
             }
             else

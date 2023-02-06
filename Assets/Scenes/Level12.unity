@@ -918,6 +918,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3741767301040549190, guid: 8a284c13c23caaf4785bb8d28708cfc7, type: 3}
+      propertyPath: m_text
+      value: Slow down the antimatter asteroids right after they leave your asteroid's
+        path, then launch.
+      objectReference: {fileID: 0}
     - target: {fileID: 3903405433257215997, guid: 8a284c13c23caaf4785bb8d28708cfc7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1347,23 +1352,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1901958730780586186, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 474.799
+      value: 725.5494
       objectReference: {fileID: 0}
     - target: {fileID: 1901958730780586186, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 83.303
+      value: -42.072235
       objectReference: {fileID: 0}
     - target: {fileID: 5768404808317461718, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
       propertyPath: m_text
-      value: 'Antimatter technology developed!
+      value: 'You can now use the "SLOW DOWN" and "SPEED UP" button to affect the
+        speed of antimatter asteroids.
 
 
-        You can now use the "Slow"
-        and Speed up button to affect the speed of antimatter asteroids.
-
-
-        Your
-        asteroid will be unaffected.'
+        Your asteroid will be unaffected.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524007705569856375, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -239
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194086813485557540, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -261.4489
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194086813485557540, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 92.576996
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

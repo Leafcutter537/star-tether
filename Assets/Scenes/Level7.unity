@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.016090982, g: 0.01466979, b: 0.013826404, a: 1}
+  m_IndirectSpecularColor: {r: 0.016357873, g: 0.015225322, b: 0.014397012, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -580,6 +580,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5133308730190470399, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
+      propertyPath: m_text
+      value: Use a one-off node to ensure the asteroid grabs the energy packet in
+        its first go, then heads towards the wormhole on its second.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 835672796539026556, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
@@ -705,19 +710,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1901958730780586186, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 456.251
+      value: 554.8673
       objectReference: {fileID: 0}
     - target: {fileID: 1901958730780586186, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 74.029
+      value: 24.7209
       objectReference: {fileID: 0}
     - target: {fileID: 5768404808317461718, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
       propertyPath: m_text
-      value: 'Star Tether Node technology update!
-
-
-        Nodes can now be partially
-        energized. These nodes will deactivate after the asteroid touches them once.'
+      value: Nodes can now be put in a one-off state. These nodes will deactivate
+        after the asteroid touches them once.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524007705569856375, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -164
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194086813485557540, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -180.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194086813485557540, guid: 37f7e6b0d753523438032d17af8ed7b5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

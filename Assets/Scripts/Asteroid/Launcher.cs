@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
-public class Launcher : MonoBehaviour
+public class Launcher : MonoBehaviour, IPointerClickHandler
 {
 
     [SerializeField] private GameObject projectilePrefab;
@@ -13,9 +15,12 @@ public class Launcher : MonoBehaviour
     public GameObject targetObject;
     private ParticleSystem launchEffect;
 
+    private StopStartController stopStartController;
+
     private void Awake()
     {
         launchEffect = GetComponentInChildren<ParticleSystem>();
+        stopStartController = FindObjectOfType<StopStartController>();
     }
 
     public void Launch()
@@ -29,5 +34,10 @@ public class Launcher : MonoBehaviour
         projectile.rigidbody.AddForce(targetDirection.normalized * launchVelocity, ForceMode2D.Impulse);
         launchEffect.Play();
         asteroidFiredEvent.Raise(this, null);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        stopStartController.Activate();
     }
 }
