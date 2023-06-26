@@ -15,9 +15,10 @@ public class UIController : MonoBehaviour
 
     public void ShowVictory()
     {
-        FindObjectOfType<StopStartController>().StopGame();
+        FindObjectOfType<StopStartController>().StopGame(false);
         victoryScreen.SetActive(true);
         stopButton.SetActive(false);
         startbutton.SetActive(false);
+        StopStartController.gameIsFinished = true;
     }
 }

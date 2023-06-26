@@ -923,7 +923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133308730190470399, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
       propertyPath: m_text
-      value: Use a one-off ndoe to separate the asteroids so that one breaks the
+      value: Use a one-off node to separate the asteroids so that one breaks the
         barrier and the other reaches the wormhole.
       objectReference: {fileID: 0}
     - target: {fileID: 7226635799239163203, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
@@ -1881,7 +1881,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

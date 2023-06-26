@@ -21,7 +21,7 @@ public class TutorialStartStopController : StopStartController
     public void TutorialStopGame()
     {
         if (TutorialController.tutorialStep > 10)
-            StopGame();
+            StopGame(true);
     }
 
 }

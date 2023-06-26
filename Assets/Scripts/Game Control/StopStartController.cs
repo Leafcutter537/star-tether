@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using Assets.EventSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StopStartController : MonoBehaviour
 {
-
+    public static bool gameIsFinished;
     public static bool gameIsActive;
     [Header("Start And Stop")]
     [SerializeField] private GameObject startButton;
@@ -25,6 +23,7 @@ public class StopStartController : MonoBehaviour
         numAsteroidsTotal = launchers.Length;
         stopButton.SetActive(false);
         gameIsActive = false;
+        gameIsFinished = false;
     }
     private void OnEnable()
     {
@@ -37,12 +36,14 @@ public class StopStartController : MonoBehaviour
 
     public void Activate()
     {
+        if (gameIsFinished)
+            return;
         if (currentNumAsteroids > 0)
         {
             if (this is TutorialStartStopController tutor)
                 tutor.TutorialStopGame();
             else
-                StopGame();
+                StopGame(true);
         }
         else
         {
@@ -65,12 +66,15 @@ public class StopStartController : MonoBehaviour
         currentNumAsteroids = numAsteroidsTotal;
     }
 
-    public void StopGame()
+    public void StopGame(bool resetGenerators)
     {
-        foreach (Generator generator in FindObjectsOfType<Generator>())
+        if (resetGenerators)
         {
-            generator.RemoveInstance();
-            generator.Generate();
+            foreach (Generator generator in FindObjectsOfType<Generator>())
+            {
+                generator.RemoveInstance();
+                generator.Generate();
+            }
         }
         gameStoppedEvent.Raise(this, null);
         startButton.SetActive(true);
@@ -79,12 +83,17 @@ public class StopStartController : MonoBehaviour
         currentNumAsteroids = 0;
     }
 
+    public void StopGame()
+    {
+        StopGame(true);
+    }
+
     public void OnAsteroidDestroyed(object sender, EventParameters args)
     {
         currentNumAsteroids--;
         if (currentNumAsteroids <= 0)
         {
-            StopGame();
+            StopGame(true);
         }
     }
 

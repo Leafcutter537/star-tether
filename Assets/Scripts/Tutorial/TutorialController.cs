@@ -14,6 +14,7 @@ public class TutorialController : MonoBehaviour
     [SerializeField] private GameObject fourthDialoguePanel;
     [SerializeField] private GameObject fifthDialoguePanel;
     [SerializeField] private GameObject skipTutorialButton;
+    [SerializeField] private GameObject hintButton;
 
     private List<GameObject> allGameObjects;
 
@@ -79,6 +80,7 @@ public class TutorialController : MonoBehaviour
     public void EndTutorial()
     {
         HideAll();
+        hintButton.SetActive(true);
         tutorialStep = 9999;
     }
 

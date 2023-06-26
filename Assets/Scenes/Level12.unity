@@ -332,6 +332,10 @@ PrefabInstance:
       value: AntimatterAsteroid (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
       propertyPath: initialTether
       value: 
       objectReference: {fileID: 1591887983}
@@ -560,6 +564,10 @@ PrefabInstance:
     - target: {fileID: 1435003550092962759, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
       propertyPath: m_Name
       value: AntimatterAsteroid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
+      propertyPath: speed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
       propertyPath: initialTether
@@ -1727,7 +1735,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.5
+  orthographic size: 6.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

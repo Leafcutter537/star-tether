@@ -8,6 +8,7 @@ public class Asteroid : MonoBehaviour
 {
     [Header("Asteroid Properties")]
     public new Rigidbody2D rigidbody;
+    public float speed;
     private Tether tether;
     private Orbit orbit;
     [SerializeField] private MeshRenderer meshRenderer;
@@ -83,13 +84,13 @@ public class Asteroid : MonoBehaviour
         Vector2 tetherToObject = rigidbody.position - tether.rigidbody.position;
         float angle = Vector2.SignedAngle(rigidbody.velocity, Vector2.Perpendicular(tetherToObject));
         angle = angle * Mathf.PI / 180;
-        float perpendicularVelocity = rigidbody.velocity.magnitude * Mathf.Cos(angle);
+        float direction = Mathf.Sign(Mathf.Cos(angle));
         float phi = Mathf.Acos(tetherToObject.normalized.x);
         if (tetherToObject.y < 0)
         {
             phi = -1 * phi;
         }
-        orbit = new Orbit(perpendicularVelocity, phi, tetherSwitch.radius);
+        orbit = new Orbit(speed * direction, phi, tetherSwitch.radius);
         rigidbody.velocity = Vector2.zero;
         starTetherInstance = Instantiate(starTetherPrefab, Vector3.zero, Quaternion.identity);
         ParticleSystem particleSystem = starTetherInstance.GetComponentInChildren<ParticleSystem>();

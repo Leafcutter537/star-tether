@@ -1163,7 +1163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1374043273828952833, guid: b819a862b65bfda48bd8d0792e198a27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.16
+      value: -4.42
       objectReference: {fileID: 0}
     - target: {fileID: 1374043273828952833, guid: b819a862b65bfda48bd8d0792e198a27, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1380,7 +1380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4378638346741866793, guid: 159fd353815a79b4ca8d2a97607ec221, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.05
+      value: -1.94
       objectReference: {fileID: 0}
     - target: {fileID: 4378638346741866793, guid: 159fd353815a79b4ca8d2a97607ec221, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1798,7 +1798,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.5
+  orthographic size: 6.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1822,7 +1822,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715112724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.37, y: 0.16, z: -10}
+  m_LocalPosition: {x: 0.27, y: 0.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

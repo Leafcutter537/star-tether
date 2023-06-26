@@ -774,7 +774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133308730190470399, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}
       propertyPath: m_text
-      value: The asteroid is initally going counterclockwise. Use the connections
+      value: The asteroid is initially going counter-clockwise. Use the connections
         to make it go clockwise.
       objectReference: {fileID: 0}
     - target: {fileID: 7872884122680654410, guid: 4f58f0b4ee120d6469a1d1ecccd2dd3b, type: 3}

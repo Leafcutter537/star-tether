@@ -674,6 +674,10 @@ PrefabInstance:
       value: AntimatterAsteroid
       objectReference: {fileID: 0}
     - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
       propertyPath: initialTether
       value: 
       objectReference: {fileID: 1551214614}
@@ -1051,7 +1055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4747162143595157611, guid: 8a284c13c23caaf4785bb8d28708cfc7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9171764696493182401, guid: 8a284c13c23caaf4785bb8d28708cfc7, type: 3}
       propertyPath: m_Name
@@ -2021,7 +2025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1374043273828952833, guid: b819a862b65bfda48bd8d0792e198a27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.43
       objectReference: {fileID: 0}
     - target: {fileID: 1374043273828952833, guid: b819a862b65bfda48bd8d0792e198a27, type: 3}
       propertyPath: m_LocalPosition.z

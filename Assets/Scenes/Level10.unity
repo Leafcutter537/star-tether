@@ -382,6 +382,10 @@ PrefabInstance:
       value: AntimatterAsteroid
       objectReference: {fileID: 0}
     - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175581961116540907, guid: 2efb4e8f982715f4ab4b95b3cb2d5ac7, type: 3}
       propertyPath: initialTether
       value: 
       objectReference: {fileID: 1551214614}

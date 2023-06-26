@@ -70,7 +70,7 @@ public class TetherSwitchToggle : MonoBehaviour, IPointerClickHandler, IPointerE
 
     public virtual void OnPointerClick(PointerEventData eventData)
     {
-        if (!StopStartController.gameIsActive)
+        if (!StopStartController.gameIsActive & !StopStartController.gameIsFinished)
         {
             toggleEvent.Raise(this, null);
             switch (possibleStates)
